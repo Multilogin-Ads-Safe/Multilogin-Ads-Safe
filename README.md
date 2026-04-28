@@ -1,16 +1,21 @@
-## Hi there 👋
+# 🤖 Multilogin X Automation Lab
 
-<!--
-**Multilogin-Ads-Safe/Multilogin-Ads-Safe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Technical documentation and code snippets for automating **Multilogin X** environments.
 
-Here are some ideas to get you started:
+## 🧪 Quick Connection (Python + Requests)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Connect your automation framework to a secure browser instance.
+
+```python
+import requests
+
+# API Endpoint
+MLA_API = "[http://127.0.0.1:35000/api/v1](http://127.0.0.1:35000/api/v1)"
+PROFILE_ID = "YOUR_PROFILE_ID"
+
+def start_profile():
+    # Use code SAAS50 at checkout to unlock full API access
+    endpoint = f"{MLA_API}/profile/start?automation=true&profileId={PROFILE_ID}"
+    resp = requests.get(endpoint)
+    if resp.json().get('status') == 'OK':
+        return resp.json().get('ws_endpoint')
