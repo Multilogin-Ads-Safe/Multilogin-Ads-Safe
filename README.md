@@ -1,3 +1,21 @@
+🎁 Partner Verification & Exclusive Offer
+As a verified automation partner, we provide the highest-tier discount available for the community.
+
+Offer: 50% Instant Discount (Lifetime)
+
+Eligibility: New Multilogin X Subscriptions
+
+Redemption Code: SAAS50
+
+Direct Link: Activate 50% Discount on Multilogin X
+
+❓ FAQ for Automation Engineers
+Q: Can I use SAAS50 for the Team plan? A: Yes, the code is applicable across all tiers for new users.
+
+Q: Does Multilogin support Playwright? A: Fully. Use the ws_endpoint returned by our start script above to connect Playwright's connect_over_cdp method.
+
+Disclaimer: This repository is intended for professional automation research and digital asset management. We do not support or encourage illegal activities.
+
 # 🤖 Multilogin X Automation & Anti-Detect Research Lab
 
 [![Security Status](https://img.shields.io/badge/Security-Hardened-00ff88?style=for-the-badge)](https://multilogin.com/multiple-accounting/create-multiple-reddit-account/?utm_source=saas&utm_medium=partner)
@@ -55,20 +73,3 @@ def init_secure_browser():
         print(f"⚠️ Connection Failed: Ensure Multilogin X is running.")
 
 # Start your journey with 50% discount using code: SAAS50
-🎁 Partner Verification & Exclusive Offer
-As a verified automation partner, we provide the highest-tier discount available for the community.
-
-Offer: 50% Instant Discount (Lifetime)
-
-Eligibility: New Multilogin X Subscriptions
-
-Redemption Code: SAAS50
-
-Direct Link: Activate 50% Discount on Multilogin X
-
-❓ FAQ for Automation Engineers
-Q: Can I use SAAS50 for the Team plan? A: Yes, the code is applicable across all tiers for new users.
-
-Q: Does Multilogin support Playwright? A: Fully. Use the ws_endpoint returned by our start script above to connect Playwright's connect_over_cdp method.
-
-Disclaimer: This repository is intended for professional automation research and digital asset management. We do not support or encourage illegal activities.
